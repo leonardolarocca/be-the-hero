@@ -4,7 +4,7 @@ import Routes from './routes'
 class Api {
   public express: express.Application
 
-  public constructor () {  
+  public constructor () {
     this.express = express()
     this.database()
     this.middleware()
