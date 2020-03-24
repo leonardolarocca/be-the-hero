@@ -1,5 +1,11 @@
+import express from 'express'
+import Routes from './routes'
+
 class Api {
-  constructor () {
+  public express: express.Application
+
+  public constructor () {  
+    this.express = express()
     this.database()
     this.middleware()
     this.routes()
@@ -14,7 +20,7 @@ class Api {
   }
 
   public routes (): void {
-    //
+    this.express.use(Routes)
   }
 }
 
