@@ -3,7 +3,6 @@ const connection = require('../database/connection')
 module.exports = {
   async store (req, res) {
     const { title, description, value } = req.body
-    console.log(req.headers.authorization)
     const ongId = req.headers.authorization
 
     try {
