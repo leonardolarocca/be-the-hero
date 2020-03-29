@@ -16,7 +16,7 @@ module.exports = {
         uf
       })
 
-      return res.json(id)
+      return res.json({ id })
     } catch (err) {
       return res.status(400).json({ message: err.message })
     }

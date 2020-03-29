@@ -1,0 +1,49 @@
+.incident-container {
+  width: 100%;
+  max-width: 1120px;
+  height: 100vh;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.incident-container .content {
+  width: 100%;
+  padding: 90px;
+  background:#f0f0f5;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.23);
+  border-radius: 4px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.incident-container .content section {
+  width: 100%;
+  max-width: 400px;
+}
+
+.incident-container .content section h1 {
+  margin: 30px 0;
+  font-size: 24px;
+}
+
+.incident-container .content section p {
+  font-size: 16px;
+  color: #737380;  
+}
+
+.incident-container .content form {
+  width: 100%;
+  max-width: 450px;
+}
+
+.incident-container .content form input,
+.incident-container .content form textarea {
+  margin: 4px 0;
+}
